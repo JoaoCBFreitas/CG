@@ -1,0 +1,111 @@
+<scene>
+    <group>
+        <translate/>
+        <group>
+            <scale X="80" Y="80" Z="80"/>
+            <colour R="1" G="1" B="0"/>
+            <models>
+                <model file="sphere.3d"/> --sol
+            </models>
+        </group>
+
+        <group>
+            <translate Z="100" />
+            <scale X="3" Y="3" Z="3"/>
+            <colour R="0.29" G="0.29" B="0.29"/>
+            <models>
+                <model file="sphere.3d"/> --mercurio
+            </models>
+        </group>
+
+        <group>
+            <translate Z="120" />
+            <scale X="8" Y="8" Z="8"/>
+            <colour R="1" G="0.55" B="0"/>
+            <models>
+                <model file="sphere.3d"/>  --venus
+            </models>
+        </group>
+
+        <group>
+            <translate Z="155" />
+            <group>
+                <scale X="8" Y="8" Z="8"/>
+                <colour B="1"/>
+                <rotate X="0" Y="1" Z="0" angle="45"/> 
+                <models>
+                    <model file="sphere.3d"/> --terra
+                </models>
+            </group>
+            <group>
+                <translate X="0" Y="12" Z="9"/>
+                <colour R="0.29" G="0.29" B="0.29"/>
+                <rotate X="0" Y="0" Z="1" angle="90"/> 
+                <models>
+                    <model file="sphere.3d"/> --lua
+                </models>
+            </group>
+        </group>
+
+        <group>
+            <translate Z="195" />
+            <group>
+                <scale X="4" Y="4" Z="4"/>
+                <colour R="1" />
+                <models>
+                    <model file="sphere.3d"/> --marte
+                </models>
+            </group>
+            <group>
+                <translate X="0" Y="10" Z="8"/>
+                <colour R="0.9" B="0.75"/>
+                <models>
+                    <model file="sphere.3d"/> --phobos
+                </models>
+            </group>
+            <group>
+                <translate X="4" Y="5" Z="0"/>
+                <colour R="0.4" G="0.8" B="0.1"/>
+                <models>
+                    <model file="sphere.3d"/> --deimos
+                </models>
+            </group>
+        </group>
+
+        <group>
+            <translate Z="240"/>
+            <scale X="25" Y="25" Z="25"/>
+            <colour R="1" G="1" B="1"/>
+            <models>
+                <model file="sphere.3d"/> --jupiter
+            </models>
+        </group>
+
+        <group>
+            <translate Z="300"/>
+            <scale X="20" Y="20" Z="20"/>
+            <colour G="1"/>
+            <models>
+                <model file="sphere.3d"/> --saturno
+            </models>
+        </group>
+        
+        <group>
+            <translate Z="350"/>
+            <scale X="15" Y="15" Z="15"/>
+            <colour G="1" B="1"/>
+            <models>
+                <model file="sphere.3d"/> --urano
+            </models>
+        </group>
+
+        <group>
+            <translate Z="400"/>
+            <scale X="14" Y="14" Z="14"/>
+            <colour R="0.42" G="0.05" B="0.68"/>
+            <models>
+                <model file="sphere.3d"/> --neptuno
+            </models>
+        </group>             
+    </group>
+</scene>
