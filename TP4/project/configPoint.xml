@@ -1,0 +1,189 @@
+<scene>
+    <lights>
+        <light type="POINT" posX="0" posY="0" posZ="0" />
+    </lights>
+
+    <group>
+        <translate time="0.5" >
+            <point X="0" Y="0" Z="120" /> -- top
+            <point X="63" Y="0" Z="102.11" />
+            <point X="120" Y="0" Z="0" /> -- right
+            <point X="63" Y="0" Z="-102.11" />
+            <point X="0" Y="0" Z="-120" /> -- down
+            <point X="-63" Y="0" Z="-102.11" />
+            <point X="-120" Y="0" Z="0" /> -- left
+            <point X="-63" Y="0" Z="102.11" />
+        </translate>
+        <scale X="3" Y="3" Z="3"/>
+        <colour R="0.8" G="0.8" B="0.9" />
+        <rotate time="2" X="1" Y="1" Z="1" />
+        <models>
+            <model file="sphere.3d" texture="mercurio.jpg"/> --mercurio
+        </models>
+    </group>
+
+    <group>
+        <translate time="1" >
+            <point X="0" Y="0" Z="155" /> -- top
+            <point X="81" Y="0" Z="132" />
+            <point X="155" Y="0" Z="0" /> -- right
+            <point X="81" Y="0" Z="-132" />
+            <point X="0" Y="0" Z="-155" /> -- down
+            <point X="-81" Y="0" Z="-132" />
+            <point X="-155" Y="0" Z="0" /> -- left
+            <point X="-81" Y="0" Z="132" />
+        </translate>
+        <scale X="8" Y="8" Z="8"/>
+        <colour R="1" G="0.7" B="0.5" />
+        <rotate time="2" X="1" Y="1" Z="1" />
+        <models>
+            <model file="sphere.3d" texture="venus.jpg"/>  --venus
+        </models>
+    </group>
+
+    <group>
+        <translate time="3" >
+            <point X="0" Y="0" Z="195" /> -- top
+            <point X="102" Y="0" Z="166" />
+            <point X="195" Y="0" Z="0" /> -- right
+            <point X="102" Y="0" Z="-166" />
+            <point X="0" Y="0" Z="-195" /> -- down
+            <point X="-102" Y="0" Z="-166" />
+            <point X="-195" Y="0" Z="0" /> -- left
+            <point X="-102" Y="0" Z="166" />
+        </translate>
+        <group>
+            <scale X="8" Y="8" Z="8"/>
+            <colour R="0.1" G="0.3" B="1" />
+            <rotate time="3" X="1" Y="1" Z="1" />
+            <models>
+                <model file="sphere.3d" texture="terra.jpg" /> --terra
+            </models>
+        </group>
+        <group>
+            <translate Y="12" Z="-7"/>
+            <colour R="0.29" G="0.29" B="0.29"/>
+            <scale X="1" Y="1" Z="1"/>
+            <rotate time="3" X="1" Y="1" Z="1" />
+            <models>
+                <model file="sphere.3d" texture="lua.jpg"/> --lua
+            </models>
+        </group>
+    </group>
+    <group>
+        <translate time="2" >
+            <point X="400" Y="0" Z="0" />
+            <point X="-200" Y="-120" Z="40" />
+            <point X="-400" Y="0" Z="0" />
+            <point X="200" Y="120" Z="0" />
+        </translate>
+        <rotate time="0.5" X="10" Y="10" Z="10"/> -- Rotate with time
+        <scale X="0.8" Y="0.8" Z="0.8" />
+        <colour R="1" G="0.6" B="0.3" />
+        <models>
+            <model file="box.3d" texture="cometa.jpg"/> -- Comet
+        </models>
+    </group>
+
+    <group>
+        <translate time="4" >
+            <point X="0" Y="0" Z="240" /> -- top
+            <point X="126" Y="0" Z="204" />
+            <point X="240" Y="0" Z="0" /> -- right
+            <point X="126" Y="0" Z="-204" />
+            <point X="0" Y="0" Z="-240" /> -- down
+            <point X="-126" Y="0" Z="-204" />
+            <point X="-240" Y="0" Z="0" /> -- left
+            <point X="-126" Y="0" Z="204" />
+        </translate>
+        <scale X="4" Y="4" Z="4"/>
+        <colour R="1" G="0.6" B="0.3" />
+        <rotate time="4" X="1" Y="1" Z="1" />
+        <models>
+            <model file="sphere.3d" texture="marte.jpg"/> --marte
+        </models>
+    </group>
+
+    <group>
+        <translate time="6" >
+            <point X="0" Y="0" Z="300" /> -- top
+            <point X="157.6" Y="0" Z="255" />
+            <point X="300" Y="0" Z="0" /> -- right
+            <point X="157.6" Y="0" Z="-255" />
+            <point X="0" Y="0" Z="-300" /> -- down
+            <point X="-157.6" Y="0" Z="-255" />
+            <point X="-300" Y="0" Z="0" /> -- left
+            <point X="-157.6" Y="0" Z="255" />
+        </translate>
+        <scale X="25" Y="25" Z="25"/>
+        <colour R="0.9" G="0.4" B="0.2" />
+        <rotate time="5" X="1" Y="1" Z="1" />
+        <models>
+            <model file="sphere.3d" texture="jupiter.jpg"/> --jupiter
+        </models>
+    </group>
+
+    <group>
+        <translate time="7" >
+            <point X="0" Y="0" Z="350" /> -- top
+            <point X="183.9" Y="0" Z="298" />
+            <point X="350" Y="0" Z="0" /> -- right
+            <point X="183.9" Y="0" Z="-298" />
+            <point X="0" Y="0" Z="-350" /> -- down
+            <point X="-183.9" Y="0" Z="-298" />
+            <point X="-350" Y="0" Z="0" /> -- left
+            <point X="-183.9" Y="0" Z="298" />
+        </translate>
+        <scale X="20" Y="20" Z="20"/>
+        <colour R="1" G="0.9" B="0.9" />
+        <rotate time="5" X="1" Y="1" Z="1" />
+        <models>
+            <model file="sphere.3d" texture="saturno.jpg"/> --saturno
+        </models>
+    </group>
+        
+    <group>
+        <translate time="9" >
+            <point X="0" Y="0" Z="400" /> -- top
+            <point X="210" Y="0" Z="340" />
+            <point X="400" Y="0" Z="0" /> -- right
+            <point X="210" Y="0" Z="-340" />
+            <point X="0" Y="0" Z="-400" /> -- down
+            <point X="-210" Y="0" Z="-340" />
+            <point X="-400" Y="0" Z="0" /> -- left
+            <point X="-210" Y="0" Z="340" />
+        </translate>
+        <scale X="15" Y="15" Z="15"/>
+        <colour R="0.2" G="0.4" B="1" />
+        <rotate time="6" X="1" Y="1" Z="1" />
+        <models>
+            <model file="sphere.3d" texture="urano.jpg"/> --urano
+        </models>
+    </group>
+
+    <group>
+        <translate time="10" >
+            <point X="0" Y="0" Z="450" /> -- top
+            <point X="236.4" Y="0" Z="383" />
+            <point X="450" Y="0" Z="0" /> -- right
+            <point X="236.4" Y="0" Z="-383" />
+            <point X="0" Y="0" Z="-450" /> -- down
+            <point X="-236.4" Y="0" Z="-383" />
+            <point X="-450" Y="0" Z="0" /> -- left
+            <point X="-236.4" Y="0" Z="383" />
+        </translate>
+        <scale X="14" Y="14" Z="14"/>
+        <colour R="0.42" G="0.05" B="0.68"/>
+        <rotate time="8" X="1" Y="1" Z="1" />
+        <models>
+            <model file="sphere.3d" texture="neptuno.jpg"/> --neptuno
+        </models>
+    </group>   
+    <group>
+        <scale X="80" Y="80" Z="80"/>
+        <colour R="1" G="1" B="0"/>
+        <models>
+            <model file="sphere.3d" texture="sol.jpg" emisR="1" emisG="1" emisB="1"/> --sol
+        </models>
+    </group>    
+</scene>
